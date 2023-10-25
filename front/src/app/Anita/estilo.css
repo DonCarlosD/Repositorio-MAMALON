@@ -17,12 +17,19 @@
   margin: 0 auto;
   text-align: center;
 }
-
+#username{
+  background-color: #e6009a78;
+  border-radius: 10px;
+}
+#password{
+  background-color: #e6009a78;
+  border-radius: 10px; 
+}
 .login-button {
   font-family: 'Montserrat', sans-serif; /* Aplicar la fuente Montserrat */
   color: black; /* Cambiar el color del texto a negro */
   background-color: #c80085; /* Cambiar el color de fondo si es necesario */
-  padding: 10px 20px;
+  padding: 10px 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
