@@ -7,6 +7,8 @@ function Page() {
         alignItems: 'center',
         justifyContent: 'center',
         height: '100vh', // Esto centra verticalmente en la pantalla
+        backgroundColor: '#d3dce4', // Establece el color de fondo
+        color: '#202831', // Establece el color del texto
       };
 
       return (
