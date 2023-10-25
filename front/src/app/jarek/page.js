@@ -1,14 +1,20 @@
 import React from 'react';
-import './Page.css'; // Asegúrate de tener un archivo CSS para estilos personalizados si es necesario
+import './page.css'; // Asegúrate de tener un archivo CSS para estilos personalizados si es necesario
 
 const Page = () => {
     // Puedes declarar variables u objetos de estado aquí si es necesario
-    const mensaje = "¡Hola mundo!";
-    const productos = ['Producto 1', 'Producto 2', 'Producto 3'];
+    const mensaje = "¡Tabla de Cumpleaños!";
+    const productos = [' '];
     const contenido = [
-        { id: 1, titulo: "Sergio", contenido: "Mama" },
-        { id: 2, titulo: "Joel", contenido: "Papa" },
-        { id: 3, titulo: "Carlos", contenido: "Hijo" }
+        { id: 1, titulo: "Jojo", contenido: "21 Mayo 1998" },
+        { id: 2, titulo: "Jarek", contenido: "20 Enero 2001" },
+        { id: 3, titulo: "Martha", contenido: "10 Octubre 2001" },
+        { id: 3, titulo: "Alef", contenido: "30 Marzo 2002" },
+        { id: 3, titulo: "Mony", contenido: "2 mayo 2002" },
+        { id: 3, titulo: "Carlos", contenido: "8 Mayo 2002" },
+        { id: 3, titulo: "Leal", contenido: "23 Julio 2002" },
+        { id: 3, titulo: "Ana", contenido: "24 Julio 2002" },
+        { id: 3, titulo: "Martin", contenido: "20 Septiembre 2002" }
     ];
 
     return (
@@ -16,14 +22,14 @@ const Page = () => {
             <h1>{mensaje}</h1>
 
             <div className="product-list">
-                <h2>Lista de productos:</h2>
+                
                 <ul>
                     {productos.map((producto, index) => (
                         <li key={index}>{producto}</li>
                     ))}
                 </ul>
             </div>
-
+            <h2> </h2>
             <h2>Tabla de contenido:</h2>
             <table>
                 <thead>
