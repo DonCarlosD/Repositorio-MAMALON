@@ -1,4 +1,5 @@
 import React from 'react'
+import './estilo.css';
 
 const page=() =>{
     return(   
@@ -26,7 +27,7 @@ const page=() =>{
             <p>
                 Entre los personajes principales se encuentran Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji,
                 Nico Robin, Franky, Brook, Tony Tony Chopper y muchos otros.
-                
+
             </p>
         </section>
     </main>
