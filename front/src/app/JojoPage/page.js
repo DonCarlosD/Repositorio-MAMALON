@@ -9,12 +9,12 @@ function Page() {
         height: '100vh', // Esto centra verticalmente en la pantalla
       };
 
-  return (
-    <div>
-      <h1>Mi página personal</h1>
-      <p>Bienvenido a mi página.</p>
-    </div>
-  );
+      return (
+        <div style={centerStyle}>
+          <h1>Mi página personal</h1>
+          <p>Bienvenido a mi página.</p>
+        </div>
+      );
 }
 
 export default Page;
