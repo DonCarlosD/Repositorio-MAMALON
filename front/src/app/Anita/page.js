@@ -1,5 +1,6 @@
 import React from 'react';
 import './estilo.css';
+
 const Login = () => {
   return (
     <div className="login-container">
@@ -13,7 +14,7 @@ const Login = () => {
           <label htmlFor="password">Contraseña:</label>
           <input type="password" id="password" />
         </div>
-        <button type="submit">Iniciar sesión</button>
+        <button type="submit" className="login-button">Iniciar sesión</button>
       </form>
     </div>
   );
