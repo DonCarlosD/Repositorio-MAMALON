@@ -1,10 +1,19 @@
 .login-container {
-  color: black;
-  
-  background-color: pink;
+  background-image: url('pexels-guillaume-meurice-1317844.jpg');
+  background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+  background-position: center; /* Centra la imagen en el contenedor */
   padding: 20px;
   border-radius: 10px;
   width: 300px;
+  margin: 0 auto;
+  text-align: center;
+
+  color:white;
+   font-family: 'Montserrat';
+  background-color: pink;
+  padding: 100px;
+  border-radius: 10px;
+  width: 400px;
   margin: 0 auto;
   text-align: center;
 }
@@ -12,7 +21,7 @@
 .login-button {
   font-family: 'Montserrat', sans-serif; /* Aplicar la fuente Montserrat */
   color: black; /* Cambiar el color del texto a negro */
-  background-color: #ffcc00; /* Cambiar el color de fondo si es necesario */
+  background-color: #c80085; /* Cambiar el color de fondo si es necesario */
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
