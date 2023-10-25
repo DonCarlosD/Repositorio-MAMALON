@@ -6,9 +6,15 @@ const Page = () => {
     const mensaje = "¡Tabla de Cumpleaños!";
     const productos = [' '];
     const contenido = [
-        { id: 1, titulo: "Sergio", contenido: "Mama" },
-        { id: 2, titulo: "Joel", contenido: "Papa" },
-        { id: 3, titulo: "Carlos", contenido: "Hijo" }
+        { id: 1, titulo: "Jojo", contenido: "21 Mayo 1998" },
+        { id: 2, titulo: "Jarek", contenido: "20 Enero 2001" },
+        { id: 3, titulo: "Martha", contenido: "10 Octubre 2001" },
+        { id: 3, titulo: "Alef", contenido: "30 Marzo 2002" },
+        { id: 3, titulo: "Mony", contenido: "2 mayo 2002" },
+        { id: 3, titulo: "Carlos", contenido: "8 Mayo 2002" },
+        { id: 3, titulo: "Leal", contenido: "23 Julio 2002" },
+        { id: 3, titulo: "Ana", contenido: "24 Julio 2002" },
+        { id: 3, titulo: "Martin", contenido: "20 Septiembre 2002" }
     ];
 
     return (
