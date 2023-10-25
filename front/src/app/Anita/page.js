@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Page = () => {
+const page = () => {
     const headerStyle = {
         borderBottom: '2px solid blue',
         paddingBottom: '10px',
@@ -16,5 +16,4 @@ const Page = () => {
         </div>
     );
 }
-
-export default Page;
+export default page
