@@ -13,8 +13,9 @@ function Page() {
 
       return (
         <div style={centerStyle}>
-          <h1>Mi página personal</h1>
-          <p>Bienvenido a mi página.</p>
+          <h1>Jojo Presenta:</h1>
+          <p>Fushiguro Toji, el mas vergas</p>
+          <<img src="/img/Toji.jpg" alt="Mi Imagen" />
         </div>
       );
 }
