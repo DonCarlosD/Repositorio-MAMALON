@@ -1,25 +1,23 @@
 import React from 'react';
-
-const page = () => {
-    const pageStyle = {
-        backgroundColor: 'lightblue', // Fondo azul cielo
-    };
-
-    const headerStyle = {
-        borderBottom: '2px solid blue',
-        paddingBottom: '10px',
-        marginBottom: '20px',
-        backgroundColor: 'yellow', // Relleno del encabezado en color amarillo
-    };
-
-    return (
-        <div style={pageStyle}>
-            <div style={headerStyle}>
-                <h1>Mi pagina mamalona</h1>
-            </div>
-            <button>Touch me</button>
+import './estilo.css';
+const Login = () => {
+  return (
+    <div className="login-container">
+      <h2>Iniciar sesión</h2>
+      <form>
+        <div>
+          <label htmlFor="username">Usuario:</label>
+          <input type="text" id="username" />
         </div>
-    );
-}
+        <div>
+          <label htmlFor="password">Contraseña:</label>
+          <input type="password" id="password" />
+        </div>
+        <button type="submit">Iniciar sesión</button>
+      </form>
+    </div>
+  );
+};
 
-export default page;
+export default Login;
+
