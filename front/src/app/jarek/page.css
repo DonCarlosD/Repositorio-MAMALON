@@ -2,14 +2,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background: linear-gradient(to bottom right, #ff7e5f, #feb47b);
+    height: 200vh;
+    background: linear-gradient(to bottom right, #000000, #0a9203);
     font-family: Arial, sans-serif;
   }
   
   .center-content {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(97, 49, 128, 0.8);
     padding: 20px;
     border-radius: 10px;
   }
@@ -29,10 +29,7 @@ body {
     text-align: left;
     padding: 8px;
   }
-  
-  th {
-    background-color: #f2f2f2;
-  }
+ 
   
   p {
     margin-top: 20px;
